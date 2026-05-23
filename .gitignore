@@ -1,0 +1,22 @@
+# modelos treinados (grandes demais)
+X.npy
+X_all.npy
+y.npy
+classificadores.npy
+cascade.pkl
+cascade.npy
+
+# Claude Code
+.claude/
+
+# resultados com imagens pessoais
+deteccao_resultado/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
