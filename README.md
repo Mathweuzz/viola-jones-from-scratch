@@ -29,7 +29,9 @@ Equivalentemente, como composição de dois operadores de soma cumulativa ao lon
 
 $$\mathcal{S} = \mathcal{C}_{\text{col}} \circ \mathcal{C}_{\text{row}}$$
 
-onde $\mathcal{C}_{\text{row}}[A](r,c) = \sum_{c'=0}^{c} A(r,c')$ e $\mathcal{C}_{\text{col}}[A](r,c) = \sum_{r'=0}^{r} A(r',c)$.
+onde:
+
+$$\mathcal{C}_{\text{row}}[A](r,c) = \sum_{c'=0}^{c} A(r,c'), \qquad \mathcal{C}_{\text{col}}[A](r,c) = \sum_{r'=0}^{r} A(r',c)$$
 
 ### 1.2 Teorema da Soma Retangular em O(1)
 
