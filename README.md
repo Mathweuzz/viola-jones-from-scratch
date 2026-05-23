@@ -31,7 +31,9 @@ $$\mathcal{S} = \mathcal{C}_{\text{col}} \circ \mathcal{C}_{\text{row}}$$
 
 onde:
 
-$$\mathcal{C}_{\text{row}}[A](r,c) = \sum_{c'=0}^{c} A(r,c'), \qquad \mathcal{C}_{\text{col}}[A](r,c) = \sum_{r'=0}^{r} A(r',c)$$
+$$
+(\mathcal{C}_{\text{row}} A)(r,c) = \sum_{c'=0}^{c} A(r,c'), \qquad (\mathcal{C}_{\text{col}} A)(r,c) = \sum_{r'=0}^{r} A(r',c)
+$$
 
 ### 1.2 Teorema da Soma Retangular em O(1)
 
@@ -69,7 +71,7 @@ onde $s_k \in \{-1, +1\}$ são sinais associados a cada retângulo $R_k^{(j)}$ d
 | `h2` (2 retângulos horizontais) | $\text{RS}(r,c,h,w) - \text{RS}(r,c+w,h,w)$ |
 | `v2` (2 retângulos verticais) | $\text{RS}(r,c,h,w) - \text{RS}(r+h,c,h,w)$ |
 | `h3` (3 retângulos horizontais) | $\text{RS}(r,c,h,w) - 2\cdot\text{RS}(r,c+w,h,w) + \text{RS}(r,c+2w,h,w)$ |
-| `d4` (4 retângulos em diagonal) | $(\text{RS}_{TL} + \text{RS}_{BR}) - (\text{RS}_{TR} + \text{RS}_{BL})$ |
+| `d4` (4 retângulos em diagonal) | $(RS_{TL} + RS_{BR}) - (RS_{TR} + RS_{BL})$ |
 
 ### 2.2 Espaço de Features
 
